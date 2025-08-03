@@ -28,18 +28,12 @@ author = 'Shinya Sumikura. For the changes after forking, stella-cv.'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.napoleon',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.githubpages',
     'sphinx_rtd_theme',
     'sphinxcontrib.mermaid',
 ]
 
 # Mermaid configuration
 mermaid_version = '10.6.1'
-mermaid_cmd = 'mmdc'
-mermaid_params = ['-t', 'default', '-o', '_build/html/_images']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
