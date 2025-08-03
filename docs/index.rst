@@ -33,6 +33,15 @@ Contents
 
 .. toctree::
     :maxdepth: 2
+    :caption: Developer Documentation
+
+    ./developer/system_overview
+    ./developer/architecture
+    ./developer/components
+    ./developer/configuration_guide
+
+.. toctree::
+    :maxdepth: 2
     :caption: Advanced features
 
     ./example
